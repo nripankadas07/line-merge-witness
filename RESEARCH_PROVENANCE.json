@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-21",
+  "query": {
+    "query": "three way merge",
+    "url": "https://github.com/search?q=three%20way%20merge&type=repositories&s=stars&o=desc",
+    "observed": "2026-10-21T06:19:20.332Z"
+  },
+  "search_result_body": "Sort by: Most stars\nSave\nSfedfcv/redesigned-pancake\nSkip to content github / docs Code Issues 80 Pull requests 35 Discussions Actions Projects 2 Security Insights Merge branch 'main' into 1\u2026\n268\n\u00b7\nUpdated on May 16, 2021\nStar\nsjl/splice.vim\nA Vim plugin for managing three-way merges.\nPython\n\u00b7\n235\n\u00b7\nUpdated on May 5, 2022\nStar\nAI-WorkDeck/aiworkdeck\nOpen-source workspace for professional document AI: reviewable agent edits, source-linked work, three-way document merges, and an extensi\u2026\nelectron\nproductivity\nopen-source\nocr\nspring-boot\nJava\n\u00b7\n167\n\u00b7\nUpdated 20 minutes ago\nStar\nbhousel/node-diff3\nA JavaScript library for text diffing and three-way-merge\njavascript\ndiff\nmerge\nhacktoberfest\ndiffutils\nJavaScript\n\u00b7\n105\n\u00b7\nUpdated on Jun 4\nStar\nbrunopostle/ifcmerge\nA three-way-merge tool for IFC files\ngit\nmercurial\nbim\nifc\nPerl\n\u00b7\n88\n\u00b7\nUpdated on Apr 7\nStar\nd0dg3r/GitSyncMarks\nBrowser extension for bidirectional bookmark sync with Git (GitHub, GitLab, Codeberg, Gitea & more). One JSON file per bookmark, three-way \u2026\ngithub\nchrome-extension\nsync\njson\ngitlab\nJavaScript\n\u00b7\n46\n\u00b7\nUpdated yesterday\nStar\n Sponsor\nmovableink/three-way-merge\nJavascript/typescript library for performing three-way merges and diffs\nTypeScript\n\u00b7\n25\n\u00b7\nUpdated on Aug 8, 2023\nStar\ntrimerge/trimerge\nThree-way merge JSON structures\nTypeScript\n\u00b7\n25\n\u00b7\nUpdated on Apr 24, 2023\nStar\nSymbolk/IntelliMerge\nA graph-based refactoring-aware three-way merging tool for Java programs.\nrefactoring\ngit\nmerge\nconflict\nJava\n\u00b7\n24\n\u00b7\nUpdated on Jul 21, 2021\nStar\n5long/p3wm\nThree-way merge .pacnew file\narchlinux\npacman\nShell\n\u00b7\n16\n\u00b7\nUpdated on May 25, 2023\nStar\nPrevious1234567\u202633Next\nSponsor open source projects you depend on\nContributors are working behind the scenes to make open source better for everyone\u2014give them the help and recognition they deserve.\nExplore sponsorable projects\nHow can we improve search? Give feedback\nProTip!\u00a0Press the / key to activate the search input again and adjust your query.",
+  "highest_star_relevant_found": "git/git",
+  "comparables": [
+    {
+      "full_name": "git/git",
+      "html_url": "https://github.com/git/git",
+      "stargazers_count": 63923,
+      "pushed_at": "2026-10-20T20:44:06Z",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "description": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.",
+      "observed": "2026-10-21T06:01:39.772Z",
+      "recent_open_items": [
+        {
+          "title": "status: compare against both upstream and push branch by default",
+          "url": "https://github.com/git/git/pull/2458",
+          "is_pr": true,
+          "body_excerpt": "Make `@{upstream} @{push}` the default for `status.compareBranches`. With the default `push.default` of `simple` the output does not change. With `current` or `matching`, a branch pushed somewhere other than its upstream now shows both comparisons.\r\n\r\nChanges in v2:\r\n- Kept the existing tests unchanged, including the explicit `\"@{upstream} @{push}\"` config and the `\"@{upstream}\"` test on `main`\r\n- Added tests for the new default with the same upstream and push branch, in a triangular workflow, and without an upstream\r\n- Added a test showing that `\"@{upstream}\"` restores the old output on a triangular branch\r\n- Reworded the commit message to point to 3ea95ac9c5 and explain which setups see a change\r\n\r\ncc: Phillip Wood <phillip.wood123@gmail.com>\r\ncc: \"Kristoffer Haugsbakk\" <kristofferhaugsbakk@fastmail.com>"
+        },
+        {
+          "title": "config: make the suggested \"set\" command safe to paste",
+          "url": "https://github.com/git/git/pull/2457",
+          "is_pr": true,
+          "body_excerpt": "When `git config <key>=<value>` is given a value with spaces, the suggested command fails when pasted back into a shell. Quote the value when it needs it and put the command on its own line, the way other hints show commands:\n\n```\n$ git config status.comparebranches=\"@{upstream} @{push}\"\nerror: missing value to set to the variable 'status.comparebranches=@{upstream} @{push}'\nhint: did you mean:\nhint:\nhint: \tgit config set status.comparebranches '@{upstream} @{push}'\n```"
+        },
+        {
+          "title": "Fix imap-send with reordered message headers",
+          "url": "https://github.com/git/git/pull/2456",
+          "is_pr": true,
+          "body_excerpt": "git imap-send rejected patches sent with git send-email, such as ones fetched from lore with b4, because it expected Date before Subject.\r\n\r\nChanges in v2:\r\n- Case insensitive header match according to RFC 822/2822/5322."
+        }
+      ]
+    },
+    {
+      "full_name": "jj-vcs/jj",
+      "html_url": "https://github.com/jj-vcs/jj",
+      "stargazers_count": 32176,
+      "pushed_at": "2026-10-21T05:43:48Z",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "description": "A Git-compatible VCS that is both simple and powerful",
+      "observed": "2026-10-21T06:01:39.523Z",
+      "recent_open_items": [
+        {
+          "title": "store: share concurrent reads of the same commit or tree",
+          "url": "https://github.com/jj-vcs/jj/pull/10435",
+          "is_pr": true,
+          "body_excerpt": "As we improve concurrency (e.g. the recent changes that made `MergedTree::entries()` concurrent), we increase the risk of concurrent requests to the backend if the object is not in `Store`'s caches. Another example is `jj log --no-graph -p`, which diffs each commit against its parent, so the parent's tree is read both for the parent's diff and for its child's diff. I'm about to make `jj log -p` (i.e. with the graph) also read commits concurrently.\n\nThis patch makes concurrent cache misses for the same commit or tree share a single backend read. Every caller waiting for the read polls it, so it makes progress even if the caller that started it is not being polled. That happens e.g. when a commit is prefetched by a buffered stream and the consumer of the stream reads the same commit as the parent of an earlier commit in the stream.\n\nFor example, a more concurrent version of `jj evolog -p` on a commit with 238 entries now reads 1,826 trees instead of about 9,000, and a more concurrent ver"
+        },
+        {
+          "title": "Root merge fix",
+          "url": "https://github.com/jj-vcs/jj/pull/10434",
+          "is_pr": true,
+          "body_excerpt": "<!--\nThere's no need to add anything here, but feel free to add a personal message.\nPlease describe the changes in this PR in the commit message(s) instead, with\neach commit representing one logical change. Address code review comments by\nrewriting the commits rather than adding commits on top. Use force-push when\npushing the updated commits (`jj git push` does that automatically when you\nrewrite commits). Merge the PR at will once it's been approved. See\nhttps://github.com/jj-vcs/jj/blob/main/docs/contributing.md for details.\nNote that you need to sign Google's CLA to contribute.\n-->\n\n# Checklist\n\nIf applicable:\n\n- [x] I have updated `CHANGELOG.md`\n- [ ] I have updated the documentation (`README.md`, `docs/`, `demos/`)\n- [ ] I have updated the config schema (`cli/src/config-schema.json`)\n- [x] I have added/updated tests to cover my changes\n- [x] I understand the [AI policy], and I fully understand the code that I am\n      submitting (what it does, how it works, how it's organized), in"
+        },
+        {
+          "title": "npm: bump vite from 8.2.1 to 8.3.4 in /web/docs",
+          "url": "https://github.com/jj-vcs/jj/pull/10433",
+          "is_pr": true,
+          "body_excerpt": "Bumps [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) from 8.2.1 to 8.3.4.\n<details>\n<summary>Release notes</summary>\n<p><em>Sourced from <a href=\"https://github.com/vitejs/vite/releases\">vite's releases</a>.</em></p>\n<blockquote>\n<h2>v8.3.4</h2>\n<h3>Features</h3>\n<ul>\n<li><strong>bundled-dev:</strong> support <code>import.meta.hot.acceptExports</code> (<a href=\"https://redirect.github.com/vitejs/vite/issues/23463\">#23463</a>) (<a href=\"https://github.com/vitejs/vite/commit/bc0f21c56a2e003a4d2dd23ccb9da3ec8c706c4e\">bc0f21c</a>)</li>\n</ul>\n<h3>Bug Fixes</h3>\n<ul>\n<li>avoid mutating hmr defaults (fix <a href=\"https://redirect.github.com/vitejs/vite/issues/23575\">#23575</a>) (<a href=\"https://redirect.github.com/vitejs/vite/issues/23576\">#23576</a>) (<a href=\"https://github.com/vitejs/vite/commit/574d5e351905fe99891364d03c2440531378f7fd\">574d5e3</a>)</li>\n<li><strong>build:</strong> correct preloads when chunkImportMap is enabled with non-root base (<a href=\"https://redirec"
+        }
+      ]
+    },
+    {
+      "full_name": "libgit2/libgit2",
+      "html_url": "https://github.com/libgit2/libgit2",
+      "stargazers_count": 10629,
+      "pushed_at": "2026-10-16T14:02:20Z",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "description": "A cross-platform, linkable library implementation of Git that you can use in your application.",
+      "observed": "2026-10-21",
+      "recent_open_items": [
+        {
+          "title": "Avoid holding mwindow mutex during pack and window allocations",
+          "url": "https://github.com/libgit2/libgit2/pull/7443",
+          "is_pr": true,
+          "body_excerpt": "**Summary**:  libgit2 can deadlock when holding git_mwindow__mutex across allocations if a custom allocator, under GC pressure, runs a finalizer that re-enters libgit2 and tries to acquire the same mutex.\r\n\r\n---\r\n\r\nWhen libgit2 is configured with a custom allocator via GIT_OPT_SET_ALLOCATOR (such as in Ruby/Rugged bindings), memory allocations can trigger a garbage collection cycle. If the GC finalizer frees an unreachable repository, git_repository_free calls git_mwindow_put_pack, which attempts to acquire git_mwindow__mutex.\r\n\r\nPreviously, git_mwindow_get_pack held git_mwindow__mutex across git_packfile_alloc. When an allocation triggered a GC pass, the thread deadlocked on the non-recursive mutex with itself. A similar issue existed in git_mwindow_open when allocating git_mwindow structures.\r\n\r\n```mermaid\r\n  sequenceDiagram\r\n      participant Thread as Worker Thread\r\n      participant Mutex as git_mwindow__mutex\r\n      participant Alloc as Custom Allocator (Ruby xmalloc)\r\n      part"
+        },
+        {
+          "title": "remote: honor negative refspecs after fetching",
+          "url": "https://github.com/libgit2/libgit2/pull/7442",
+          "is_pr": true,
+          "body_excerpt": "Fixes #7435.\n\nNegative fetch refspecs already affect negotiation, but positive matches can select excluded refs again after downloading. This can update excluded remote-tracking refs, include them in FETCH_HEAD, and prune them when their source disappears.\n\nThis change applies exclusions when updating tips and when matching active or configured refspecs for opportunistic updates. Pruning checks exclusions against each reverse-mapped source. Negative refspecs do not independently select refs; tag auto-following remains unchanged.\n\nEight tests cover reference creation, preservation of existing refs, FETCH_HEAD, wildcard exclusions, pruning, active and configured exclusions during opportunistic updates, and tag auto-following. Seven regression tests fail on the original code; the tag auto-follow control passes.\n\nValidation on Fedora AArch64:\n- Debug build with USE_SSH=exec.\n- 23 fetchlocal tests pass.\n- Related network, remote, FETCH_HEAD, and non-network clone tests pass (204 tests).\n- g"
+        },
+        {
+          "title": "remote: honor explicit tag fetch destinations",
+          "url": "https://github.com/libgit2/libgit2/pull/7440",
+          "is_pr": true,
+          "body_excerpt": "In AUTO tag mode, `refs/tags/hard_tag:refs/custom/tag` silently ignores the requested destination, and `+refs/tags/*:refs/tags/*` does not replace an existing tag. Tag auto-following currently runs before the explicit refspec mapping.\n\nPrefer a matching refspec with a destination before applying auto-following. This honors the destination and force flag and keeps the output buffer empty for exact refspec transforms.\n\nThree regression tests fail before the fix and pass afterward: exact destination, wildcard destination, and forced update. A fourth checks that ordinary auto-following preserves an existing local tag.\n\nValidation on Fedora AArch64: all 201 selected remote, local-fetch, fetch, and FETCH_HEAD tests pass.\n\nFixes #7438.\n"
+        }
+      ]
+    }
+  ],
+  "primary_sources": [
+    "https://git-scm.com/docs/git-merge-file"
+  ],
+  "limits": "Keyword searches are scoped, not global rankings. Established relevant alternatives were supplemented directly. Broader/irrelevant keyword leaders are excluded by README scope. No competitor installed/timed or absence/superiority/support-quality claim. Current issue samples may be PRs and are not verified demand for this tool."
+}

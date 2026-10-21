@@ -1,0 +1,28 @@
+{
+  "clean": true,
+  "conflict_count": 0,
+  "regions": [
+    {
+      "base_range": [
+        0,
+        1
+      ],
+      "base": "first\n",
+      "left": "FIRST\n",
+      "right": "first\n",
+      "conflict": false
+    },
+    {
+      "base_range": [
+        2,
+        3
+      ],
+      "base": "last\n",
+      "left": "last\n",
+      "right": "LAST\n",
+      "conflict": false
+    }
+  ],
+  "merged_text": "FIRST\nmiddle\nLAST\n",
+  "coordinates": "zero-based half-open base line ranges; boundary insertions are independent"
+}

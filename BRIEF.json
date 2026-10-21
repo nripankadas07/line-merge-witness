@@ -1,0 +1,38 @@
+{
+  "occurrence": "GH-20261021",
+  "state": "VALIDATED",
+  "demand": "Inferred; no verified request for this new tool.",
+  "acceptance": [
+    "The invented three files merge independent first/last line changes cleanly.",
+    "225 small-sequence LCS reconstructions and675 single/identical-side merge checks,125 side-swap cases, conflicts/adjacent edits/interior/boundary insertions, CRLF/EOF and line bound.",
+    "Clean installed CLI outside checkout, error case and source preservation."
+  ],
+  "discovery": "Searchable README/topics and small reproducible example; no outreach/adoption claim.",
+  "inventory_compared": 208,
+  "mutual_distinction": "Schema evolution, OOXML formula structure, event-time state, expiry stock allocation and three-version text edits are separate products/users/contracts. Shared packaging is infrastructure.",
+  "originality": "Original AI-assisted code and invented fixtures; no third-party implementation/prose copied.",
+  "repo": "line-merge-witness",
+  "user": "Configuration reviewers comparing two text edits with their common base.",
+  "pain": "A merged-looking output can hide overlapping changes and make it difficult to locate the relevant base lines.",
+  "capability": "Perform a read-only bounded three-way line merge with base-coordinate conflict regions and clean merged text.",
+  "alternatives": [
+    "git/git",
+    "jj-vcs/jj",
+    "libgit2/libgit2"
+  ],
+  "highest": "git/git",
+  "query": "three way merge",
+  "topics": [
+    "merge",
+    "diff",
+    "conflict-resolution",
+    "python"
+  ],
+  "expected": "The invented three files merge independent first/last line changes cleanly.",
+  "limits": "Three UTF-8 files, each<=1MiB and500 Python splitlines(keepends=True) lines. Original deterministic quadratic LCS; ties prefer deleting from base. Cross-side nonempty edit intervals overlap only in their interiors; insertion overlaps a replacement only strictly inside it; two insertions overlap at the same point. Boundary insertions remain independent, identical alternatives coalesce. Transitive overlap components conservatively conflict when materialized alternatives differ. Base coordinates zero-based half-open. Any conflict sets merged_text=null; report preserves alternatives. CRLF and final-newline differences are significant. No Git invocation, rename/directory/binary/semantic merge or promise to match Git alignment/conflict decisions.",
+  "distinct": "jsondiff and diffstat provide two-input structural/statistical comparisons. This implements a three-version base-relative line reconciliation algorithm with conflict components, not a wrapper.",
+  "checks": "225 small-sequence LCS reconstructions and675 single/identical-side merge checks,125 side-swap cases, conflicts/adjacent edits/interior/boundary insertions, CRLF/EOF and line bound.",
+  "primary": [
+    "https://git-scm.com/docs/git-merge-file"
+  ]
+}
