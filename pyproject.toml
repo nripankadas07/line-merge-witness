@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "line-merge-witness"
+version = "0.1.0"
+description = "Perform a read-only bounded three-way line merge with base-coordinate conflict regions and clean merged text."
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+readme = "README.md"
+dependencies = []
+[project.scripts]
+line-merge-witness = "line_merge_witness:main"
+[tool.setuptools]
+py-modules = ["line_merge_witness"]
